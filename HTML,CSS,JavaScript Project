@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Engineering</title>
+    <style>
+      body {
+        box-shadow: rgb(37 39 89 / 40%) 0px 8px 8px 0;
+    background-image: linear-gradient(to bottom, rgb(170, 185, 178) 0%, #ffffff 100%);
+    border-radius: 10px;
+    color: white;
+    padding: 30px;
+    width: 50%;
+    margin: 40px auto;
+      }
+      h1 {
+        text-align: center;
+        color: black;
+        font-size: 56px;
+      }
+      h2 {
+        text-align: center;
+        color: rgb(175, 0, 0);
+        font-size: 38px;
+        border: 1px solid #000000;
+        padding: 15px;
+        border-radius: 10px;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        border-radius: 20px;
+      }
+      p {
+        margin: 20px auto;
+        line-height: 1, 5;
+        color: black;
+        font-size: 18px;
+      }
+      button {
+        display: block;
+        margin: 20px auto;
+        background: yellowgreen;
+        color: white;
+        padding: 20px 30px;
+        font-size: 20px;
+        border: 1px solid #742D62;
+        border-radius: 6px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        background: #F3F0D7;
+        color: #742D62;
+        cursor: pointer;
+        opacity: 0, 9;
+      }
+      .learn-more {
+        text-align: center;
+        display: block;
+        color: darkgoldenrod;
+      }
+      .footer {
+        text-align: center;
+        display: block;
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1><em>Engineering👩‍💻</em></h1>
+      <h2><strong>Engineers Build The World !</strong></h2>
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/036/915/original/ENGINEER.jpg?1655029674
+        alt="Engineer"
+        width="600"
+      />
+      <p><strong>
+       Engineering is the use of scientific principles to design and build machines, structures,
+        and other items, including bridges, tunnels, roads, vehicles, and buildings. 
+        The discipline of engineering encompasses a broad range of more specialized fields of engineering,
+         each with a more specific emphasis on particular areas of applied mathematics, applied science,
+          and types of application. 
+          In the engineering design process, engineers apply mathematics and sciences such as 
+          physics to find novel solutions to problems or to improve existing solutions. 
+         The task of the engineer is to identify, understand, and interpret the constraints 
+         on a design in order to yield a successful result.
+         Constraints may include available resources, physical, imaginative or technical limitations,
+         flexibility for future modifications and additions, and other factors, such as requirements for cost, 
+         safety, marketability, productivity, and serviceability. 
+         By understanding the constraints, engineers derive specifications for the limits within which a viable 
+         object or system may be produced and operated.</strong>
+      </p>
+      <a
+        href=https://en.wikipedia.org/wiki/Engineering
+        target="_blank"
+        class="learn-more"
+      >
+        Read more about Engineering
+      </a>
+      <br />
+      <button><strong><em>✔ “Engineer-A maker of history.”</em></strong></button>
+      <p class="footer">
+        <em>This page was built by<strong> Rakshita </strong></em>
+      </p>
+    </div>
+    <script>
+      function engineer() {
+        let name = prompt("What's your name?");
+        let email = prompt("What's your email?");
+        alert("Thank you, " + name + " You gonna be maker of history if you'll pursue engineering.");
+      }
+      let engineerButton = document.querySelector("Button");
+      engineerButton.addEventListener("click", engineer);
+    </script>
+  </body>
+</html> 
